@@ -1,10 +1,22 @@
 import React from 'react';
+import Sidebar from './Sidebar';
+import Content from './Content';
+import CoverPage from './CoverPage';
 
 const App = () => {
   return (
-    <div className="container mt-5">
-      <h1 className="text-primary">Hello World</h1>
-    </div>
+    <html>
+        <head>
+
+        </head>
+        <body>
+            <CoverPage/>
+            <div id="content-sidebar-wrapper">
+                <Sidebar/>
+                <Content/>
+            </div>
+        </body>
+    </html>
   );
 };
 

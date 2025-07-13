@@ -1,0 +1,92 @@
+:root {
+  --dark: #130012;
+  --light: #ffffff;
+  --blue: #93E1D8;
+  --purple: #9590A8;
+  --rose: #896A67;
+}
+
+body {
+    background-color: var(--dark);
+    color: #E2DAD9;
+}
+
+.accent1 {
+    color: #4E353D;
+}
+
+#coverpage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coverpage-content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#coverpage-content button {
+    background-color: var(--dark);
+    font-size: 40px;
+    border-style: solid;
+    border-color: var(--rose);
+    border-width: 3px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#coverpage h1 {
+    color: #E2DAD9;
+    font-size: 60px;
+}
+
+#content-sidebar-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#content {
+    width: 65%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+#sidebar {
+    width: 25%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 26px;
+    margin: auto;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.vert-line {
+    height: 7vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;
+    margin: auto;
+}
+
+.vert-line-end {
+    height: 13vh;
+}
