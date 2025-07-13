@@ -1,0 +1,64 @@
+const data = {
+    jobs: [
+        {
+            title: "Application Security Intern",
+            company: "Guidepoint Security",
+            start: "May 2024",
+            end: "August 2024",
+            bullets: [
+                "Participated in training workshops designed to provide experience in all specialties of cybersecurity",
+                "Attended webinars hosted by vendor companies to train the use of their security product (Bright Security, Armor Code, AWS, Wiz, etc.)",
+                "Assessed the security posture of web applications manually with Burp Suite and with DAST scanning tools",
+                "Automated the production of an application security assessment report with a Python script; converted the results of a DAST scan to a formal, branded report, reducing work time to an estimated 1/3 of the original" 
+            ]
+        },
+        {
+            title: "Teaching Assistant",
+            company: "Girls Who Code",
+            start: "May 2023",
+            end: "August 2023",
+            bullets: [
+                "Taught 2 cohorts of 60+ students coding and game design in JavaScript, including the p5play library",
+                "Mentored and advised students to encourage code skill development, graded and debugged projects daily",
+                "Coordinated communication between the classroom and corporate sponsor"
+            ]
+        }
+    ], 
+
+    "skills": [
+        "python", "r", "c", "flask", "react", "ruby", "java", "javascript", "node.js"
+    ],
+
+    "projects": [
+        {
+            "title": "Receipt Splitter Application",
+            "link": "github.com/software-students-spring2025/4-containers-feature_not_bug",
+            "start": "March 2025",
+            "end": "",
+            "skills": [
+                "Flask", "MongoDB", "Python", "Docker", "CI/CD", "Machine Learning"
+            ],
+            "bullets": [
+                "Built a Flask-based full stack application utilizing a MongoDB database – allows a user to take a picture of their group’s receipt and returns the total each member owes",
+                "Employed Docker containers to containerize multiple interacting subsystems",
+                "Constructed a Continuous Integration pipeline with GitHub Actions workflows confirming code quality with pytest, pylint, and pipenv"
+            ]
+        },
+        {
+            "title": "Receipt Splitter Application",
+            "link": "github.com/software-students-spring2025/4-containers-feature_not_bug",
+            "start": "March 2025",
+            "end": "",
+            "skills": [
+                "Flask", "MongoDB", "Python", "Docker", "CI/CD", "Machine Learning"
+            ],
+            "bullets": [
+                "Built a Flask-based full stack application utilizing a MongoDB database – allows a user to take a picture of their group’s receipt and returns the total each member owes",
+                "Employed Docker containers to containerize multiple interacting subsystems",
+                "Constructed a Continuous Integration pipeline with GitHub Actions workflows confirming code quality with pytest, pylint, and pipenv"
+            ]
+        }
+    ]
+}
+
+export default data;
